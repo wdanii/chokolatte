@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="shortcut icon" href="images/logo.jpeg" type="image/x-icon">
+<style type="text/css">@import "css/all.min.css";</style>
+<style type="text/css">@import "css/bootstrap.min.css";</style>
+<style type="text/css">@import "css/font-awesome.min.css";</style>
+<style type="text/css">@import "css/style.css";</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Chokolatte</title>
+</head>
+<!-- Codigo del preloader -->
+<style>
+    #wrap-preload {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        opacity: 1;
+        visibility: visible;
+        transition: opacity .5s ease, visibility .5s ease;
+        z-index: 20000;
+    }
+
+    #wrap-preload.close {
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .fixed-top {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+    }
+
+    #wrap-preload>img.gif {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate3d(-50%, -50%, 0);
+        z-index: 20000;
+        height: 30%;
+    }
+
+    .cuadro {
+        padding: 6rem !important;
+    }
+</style>
+<div id="wrap-preload">
+    <img src="images/logo.gif" alt="gif" class="gif" id="gif">
+</div>
+<script>
+    var loader = document.getElementById("wrap-preload");
+    window.addEventListener("load", function() {
+        loader.style.visibility = "hidden";
+    });
+</script>
+<!-- Fin de codigo preloader -->
+
+<body>
+    <div class="wrap-social">
+        <div class="show" id="showId"><i class="fa fa-caret-right"></i></div>
+        <div class="social">
+            <div class="socials facebook">
+                <a href="https://www.facebook.com/Chokolatte-gourmet-102754001639312/" target="_blank">
+                    <i class="fab fa-facebook-f icono"></i>
+                </a>
+            </div>
+            <div class="socials insta">
+                <a href="https://www.instagram.com/chokolatte_gourmet/?igshid=1pey3ivy0k6vk" target="_blank">
+                    <i class="fab fa-instagram icono"></i>
+                </a>
+            </div>
+            <div class="socials whatApp">
+                <a href="https://wa.me/+573134539241" target="_blank">
+                    <i class="fab fa-whatsapp icono"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="col-12 cuadro">
+        <!-- <h1 class="titulo text-center tamaño_titulo">Chocolatte</h1> -->
+    </div>
+    <div class="col-12 d-flex flex-wrap align-items-center justify-content-center cont_img">
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <img src="images/1.jpg" class="card-img-top card_img" alt="...">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <img src="images/2.jpg" class="card-img-top card_img" alt="...">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <img src="images/3.jpg" class="card-img-top card_img" alt="...">
+        </div>
+        <div class="col-lg-4 col-md-6 col-12 mb-3">
+            <img src="images/4.jpg" class="card-img-top card_img" alt="...">
+        </div>
+    </div>
+    <div class="col-lg-12col-md-9 col-12 logo-block copy d-flex align-items-center d-flex justify-content-center">
+        <p class="text-center espacio"><a href="https://www.facebook.com/Chokolatte-gourmet-102754001639312/" style="font-weight: bold;color: #4d4d4d;" target="_blank"> Chocolatte </a>
+            &copy; Copyright 2020. <br> Todos los derechos reservados. </p>
+        <br />
+
+
+    </div>
+</body>
+<script src="js/all.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</html>
